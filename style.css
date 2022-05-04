@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #00856F;
+}
+
+nav > a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.button {
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+    background-color: #00856F;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#landingPage {
+    background-color: #DCE9E2;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #DCE9E2;
+    color: #00856F;
+}
+
+nav > a {
+    color: #00856F;
+}
+
+.landingButton {
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+    background-color: #DCE9E2;
+    color: #00856F;
+    border: 2px solid #00856F;
+}
+#landingButton {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+    background-color: #00856F;
+    color: #DCE9E2;
+    border: none;
+    margin-top: 0.5rem;
+}
+#landingButton > i {
+    margin-right: 10px;
+    color: #00856F; 
+}
+#menuLogo {
+    width: 420px;
+    height: 547px;
+}
+#menuText {
+    padding: 2rem 2rem;
+}
+#menuText > h5 {
+    color: #00856F;
+}
+#informationContainer {
+    display: flex;
+    align-items: center;
+}
